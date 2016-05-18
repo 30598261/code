@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:id="@+id/aaa"
+    android:background="@drawable/popwindow"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/wifititle"
+        android:ems="10" >
+    </TextView>
+        <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+         >
+		
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="wrap_content"
+            android:layout_height="80dp"
+            android:textSize="30dp"
+            android:layout_marginLeft="80dp"
+            android:layout_marginTop="20dp"
+            android:textColor="#ffffff"
+            android:text="WiFi热点 " />
+       <Switch
+           android:id="@+id/switch1"
+           android:layout_width="wrap_content"
+           android:layout_height="80dp"
+           android:layout_marginLeft="120dp"
+		   android:layout_marginTop="20dp"
+           android:text="" />
+    </LinearLayout>
+    
+        <LinearLayout
+        android:id="@+id/liner1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:focusable="true"   
+        android:focusableInTouchMode="true"
+         >
+          <TextView
+            android:id="@+id/textWifiName1"
+            android:layout_width="wrap_content"
+            android:layout_height="80dp"
+            android:textSize="30dp"
+            android:layout_marginLeft="80dp"
+             android:layout_marginTop="5dp"
+            android:textColor="#ffffff"
+            android:text="WiFi名称:" />
+          <TextView
+            android:id="@+id/textWfifName2"
+            android:layout_width="130dp"
+            android:layout_height="40dp"
+            android:maxLength="16"
+            android:textSize="20dp"
+            android:lineSpacingExtra="1dp"
+            android:text="    HOOPSON_"
+             android:textColor="#ffffff"
+            android:layout_marginLeft="10dp" />
+           <EditText
+            android:id="@+id/editText2"
+            android:layout_width="95dp"
+            android:layout_height="40dp"
+            android:maxLength="16"
+            android:maxEms="16"
+            android:textSize="20dp"
+            android:lineSpacingExtra="1dp"
+        	android:inputType="number"
+            android:singleLine="true"
+            android:textColor="#ffffff"
+            android:layout_marginLeft="1dp" />
+    </LinearLayout>
+
+    <LinearLayout
+          android:id="@+id/liner2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:focusable="true"   
+        android:focusableInTouchMode="true"
+         >
+          <TextView
+            android:id="@+id/textWifiPwd"
+            android:layout_width="wrap_content"
+            android:layout_height="80dp"
+            android:textSize="30dp"
+            android:layout_marginLeft="80dp"
+            android:textColor="#ffffff"
+            android:text="WiFi密码: " />
+        <EditText
+            android:id="@+id/editText1"
+            android:layout_width="220dp"
+            android:layout_height="40dp"
+            android:maxLength="16"
+            android:maxEms="16"
+            android:textSize="20dp"
+            android:lineSpacingExtra="1dp"
+            android:layout_marginLeft="10dp"
+            android:text="12345678"
+      	    android:textColor="#888888"
+            android:inputType="number" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+        <Button
+            android:id="@+id/button1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="30dp"
+            android:focusable="true"
+            android:textColor="#ffffff"
+            android:background="@drawable/selector_pop_window_finger_btn"
+            android:text="确认" />
+        
+         <Button
+            android:id="@+id/button2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="180dp"
+            android:focusable="true"
+            android:textColor="#ffffff"
+            android:background="@drawable/selector_pop_window_finger_btn"
+            android:text="取消" />
+    </LinearLayout>
+
+</LinearLayout>

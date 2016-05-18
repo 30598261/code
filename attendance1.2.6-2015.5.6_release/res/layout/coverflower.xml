@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AbsoluteLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+    
+     <com.ebanswers.attendance.MyImageView
+         android:id="@+id/imageView1"
+         android:layout_width="1000dp"
+         android:layout_height="57dp"
+         android:layout_x="160dp"
+         android:layout_y="52dp"
+         android:clickable="true"
+         android:src="@drawable/threebutton1" />
+       
+     <com.ebanswers.attendance.CoverFlow
+         android:id="@+id/main_gallery"
+         android:layout_width="match_parent"
+         android:soundEffectsEnabled="false"
+         android:layout_height="604dp"
+         android:layout_x="2dp"
+         android:layout_y="192dp" />
+     
+      <DigitalClock
+    android:id="@+id/myAnalogClock01" 
+    android:layout_width="wrap_content" 
+    android:layout_height="wrap_content" 
+    android:layout_x="200dp"
+    android:layout_y="700dp"
+    />
+
+</AbsoluteLayout>

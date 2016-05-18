@@ -1,0 +1,23 @@
+<AbsoluteLayout
+	android:id="@+id/widget38"
+	android:layout_width="fill_parent"
+	android:layout_height="fill_parent"
+	xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <Button
+        android:id="@+id/bind"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="134dp"
+        android:layout_y="76dp"
+        android:text="Button" />
+
+    <Button
+        android:id="@+id/unbind"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="134dp"
+        android:layout_y="326dp"
+        android:text="unbind" />
+
+</AbsoluteLayout>

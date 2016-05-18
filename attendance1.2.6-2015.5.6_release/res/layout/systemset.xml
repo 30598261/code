@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AbsoluteLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/widget0"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:background="@drawable/clear2" >
+
+    <com.ebanswers.attendance.defineImageButton
+        android:id="@+id/clearAllAttendanceID"
+          android:layout_width="1280dp"
+        android:layout_height="112dp"
+        android:background="@drawable/selector_clear1"
+        android:layout_x="0dp"
+        android:layout_y="170dp" 
+    />
+    
+    <com.ebanswers.attendance.defineImageButton
+        android:id="@+id/clearAllUserBtnID"
+        android:layout_width="1280dp"
+        android:layout_height="112dp"
+        android:background="@drawable/selector_clear2"
+        android:layout_x="0dp"
+        android:layout_y="282dp" 
+         />
+
+    <com.ebanswers.attendance.defineImageButton
+        android:id="@+id/resumeSetBtnID"
+        android:layout_width="1280dp"
+        android:layout_height="103dp"
+        android:background="@drawable/selector_clear3"
+        android:layout_x="0dp"
+        android:layout_y="382dp" 
+         />
+    
+    <DigitalClock
+        android:id="@+id/myAnalogClock01"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="30dp"
+        android:layout_x="1000dp"
+        android:layout_y="700dp" />
+    
+  
+    <Button
+        android:id="@+id/btnCancel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+		android:layout_x="10dp"
+	    android:layout_y="700dp" 
+        android:background="@drawable/selector_clear_back" >
+    </Button>
+
+
+</AbsoluteLayout>

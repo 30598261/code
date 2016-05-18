@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:id="@+id/aaa"
+    android:background="@drawable/popwindow"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/windowtitle1"
+        android:ems="10" >
+    </TextView>
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:gravity="center"
+        android:text="添加普通用户指纹"
+        android:textSize="40dp"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+         >
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="wrap_content"
+            android:layout_height="100dp"
+            android:textSize="30dp"
+             android:layout_marginLeft="100dp"
+            android:text="普通用户          ID : " />
+        <EditText
+            android:id="@+id/editText1"
+            android:layout_width="177dp"
+            android:layout_height="80dp"
+            android:maxLength="8"
+            android:maxEms="8"
+            android:numeric="integer"
+             android:textSize="40dp"
+             android:lineSpacingExtra="1dp"
+             android:layout_marginLeft="10dp"
+            android:inputType="number" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+        <Button
+            android:id="@+id/button1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="50dp"
+            android:focusable="true"
+            android:background="@drawable/selector_pop_window_finger_btn"
+            android:text="确认" />
+
+        <Button
+            android:id="@+id/button2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="100dp"
+            android:focusable="true"
+              android:background="@drawable/selector_pop_window_finger_btn"
+            android:text="取消" />
+
+    </LinearLayout>
+
+</LinearLayout>

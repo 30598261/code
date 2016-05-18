@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AbsoluteLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/testlayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" 
+    android:background="@drawable/finger2" >
+
+    <Button
+        android:id="@+id/btnCancel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+		android:layout_x="10dp"
+	    android:layout_y="700dp" 
+        android:background="@drawable/selector_finger_back" >
+    </Button>
+
+  <DigitalClock
+        android:id="@+id/myAnalogClock01"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="30dp"
+        android:layout_x="1000dp"
+        android:layout_y="700dp" />
+    
+
+
+    <com.ebanswers.attendance.defineImageButton
+        android:id="@+id/setFingerButton"
+        android:layout_width="1280dp"
+        android:layout_height="112dp"
+        android:background="@drawable/selector_add_normal_user"
+        android:layout_x="0dp"
+        android:layout_y="170dp" 
+         />
+    <com.ebanswers.attendance.defineImageButton
+        android:id="@+id/clearNormalUserID"
+      	android:layout_width="1280dp"
+        android:layout_height="100dp"
+        android:background="@drawable/selector_delete_normal_user"
+        android:layout_x="0dp"
+        android:layout_y="382dp"
+         />
+
+    <com.ebanswers.attendance.defineImageButton
+        android:id="@+id/addAdminUserID"
+        android:layout_width="1280dp"
+        android:layout_height="100dp"
+         android:background="@drawable/selector_add_admin_user"
+        android:layout_x="0dp"
+        android:layout_y="282dp"
+        />
+    <com.ebanswers.attendance.defineImageButton
+        android:id="@+id/deleteAdminUserID"
+        android:layout_width="1280dp"
+        android:layout_height="100dp"
+        android:background="@drawable/selector_add_admin_user"
+        android:layout_x="0dp"
+        android:layout_y="482dp"
+       />
+
+</AbsoluteLayout>

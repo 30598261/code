@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:id="@+id/aaa"
+    android:background="@drawable/popwindow"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/netview"
+        android:ems="10" >
+    </TextView>
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+         android:textSize="40dp"
+        android:gravity="center"
+        android:text="更换连接密码:"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+  	<LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+         >
+        <EditText
+            android:id="@+id/editText1"
+            android:layout_width="177dp"
+            android:layout_height="80dp"
+            android:maxLength="10"
+            android:singleLine="true"
+             android:textSize="40dp"
+             android:lineSpacingExtra="1dp"
+             android:layout_marginLeft="180dp"
+             android:inputType="number"
+            
+             />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+        <Button
+            android:id="@+id/button1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="50dp"
+            android:layout_marginTop="40dp"
+            android:focusable="true"
+            android:background="@drawable/selector_netbtn"
+            android:text="确认" />
+
+        <Button
+            android:id="@+id/button2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="100dp"
+             android:layout_marginTop="40dp"
+            android:focusable="true"
+              android:background="@drawable/selector_netbtn"
+            android:text="取消" />
+
+    </LinearLayout>
+
+</LinearLayout>

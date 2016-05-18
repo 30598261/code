@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AbsoluteLayout
+	android:id="@+id/AbsoluteLayout"
+	android:layout_width="fill_parent"
+	android:layout_height="fill_parent"
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	
+	 >
+	
+       <ProgressBar  
+   	   android:id="@+id/progressBar1" 
+       android:layout_x="10dp"
+       android:layout_y="10dp"
+	android:layout_width="wrap_content"
+	android:layout_height="wrap_content"
+      style="?android:attr/progressBarStyleLarge"
+    /> 
+    <TextView
+        android:id="@+id/statText"
+        android:layout_x="150dp"
+        android:layout_y="30dp"
+      	android:layout_height="30dp"
+      	android:textSize="25dp"
+        android:layout_width="wrap_content"
+      android:text="正在检查网络状态,请稍候"
+        />
+
+              
+</AbsoluteLayout>

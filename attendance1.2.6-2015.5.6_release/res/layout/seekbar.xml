@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AbsoluteLayout
+	android:id="@+id/AbsoluteLayout"
+	android:layout_width="fill_parent"
+	android:layout_height="fill_parent"
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	 >
+        <ImageView
+            android:id="@+id/imageView2"
+            android:layout_height="30dp"
+            android:layout_width="30dp"
+            android:layout_x="50dp"
+           	android:layout_y="10dp"
+            android:src="@drawable/ic_sound" />
+            <SeekBar
+                android:id="@+id/soundBar1"
+                android:layout_width="400dp"
+                android:layout_x="100dp"
+             	android:layout_y="10dp"
+                android:layout_height="wrap_content" />
+
+              
+</AbsoluteLayout>
