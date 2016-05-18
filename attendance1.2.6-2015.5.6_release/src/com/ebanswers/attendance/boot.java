@@ -8,6 +8,7 @@ public class boot  extends BroadcastReceiver {
 
 		@Override
 		public void onReceive(Context context, Intent intent) {
+		Log.e("test", 1);
 			String action = intent.getAction();
 			 if (Intent.ACTION_BOOT_COMPLETED.equals(intent.getAction()) ||
 					 action.equals("com.ebanswers.attendance")) {
